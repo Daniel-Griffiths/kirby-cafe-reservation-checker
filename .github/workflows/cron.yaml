@@ -2,6 +2,7 @@ name: 15-minute-cron
 on:
   schedule:
     - cron: "*/15 * * * *"
+
 jobs:
   cron:
     runs-on: ubuntu-latest
